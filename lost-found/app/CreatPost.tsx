@@ -1,7 +1,9 @@
 
 const CreatPost = () => {
     return (
-        <div>CreatPost</div>
+        <div className="bg-white">
+            <p>hello world </p>
+        </div>
     )
 }
 
