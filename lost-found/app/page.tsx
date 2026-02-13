@@ -14,6 +14,9 @@ export default function Home() {
           <p>I found Something</p>
         </button>
       </div>
+      <form action="">
+        
+      </form>
     </div>
   );
 }
