@@ -1,15 +1,13 @@
 
 const CreatPost = () => {
     return (
-        <div className="">
-            <p> What's he  situation ? </p>
+        <div className=" bg-blue-200">
+            <p className=" text-2xl font-semibold " > What's he  situation ? </p>
             <div>
                 <button>
-                    <img src="" alt="" />
                     <p>I lost Something</p>
                 </button>
                 <button>
-                    <img src="" alt="" />
                     <p>I found Something</p>
                 </button>
             </div>
