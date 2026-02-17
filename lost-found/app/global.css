@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+:root {
+    /* Primary */
+    --color-primary: #3713ec;
+    --color-primary-hover: #2d0fc4;
+    --color-on-primary: #ffffff;
+
+    /* Backgrounds */
+    --color-app-bg: #f8f9fa;
+    --color-card-bg: #ffffff;
+    --color-input-bg: #ffffff;
+    --color-muted-bg: #f3f0ff;
+
+    /* Text */
+    --color-heading: #111827;
+    --color-body: #374151;
+    --color-placeholder: #9ca3af;
+    --color-border: #e5e7eb;
+    --color-muted-text: #6b7280;
+
+    /* Shadow */
+    --shadow-soft: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
