@@ -2,12 +2,12 @@
 const CreatPost = () => {
     return (
         <div className=" bg-blue-300 p-8 rounded-xl h-screen   m-4">
-            <p className=" text-2xl font-semibold m " > What's the  situation ? </p>
-            <div className="flex-row p-4 flex-between items-center ">
-                <button>
+            <p className=" text-2xl font-bold m " > What's the  situation ? </p>
+            <div className="flex-row p-4 mt-2 flex gap-2          ">
+                <button className=" bg-white p-3 rounded-xl   " >
                     <p>I lost Something</p>
                 </button>
-                <button>
+                <button  className="bg-white p-3 rounded-xl ">
                     <p>I found Something</p>
                 </button>
             </div>
