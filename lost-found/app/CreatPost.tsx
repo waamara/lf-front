@@ -28,8 +28,8 @@ const CreatPost = () => {
                     <label htmlFor="" className="text-gray-600   ">Item Location</label>
                     <input type="text" className=" h-6 w-full  bg-amber-100 placeholder:text-gray-500   border-gray-500 border-0.5 rounded-md " />
                 </div>
-                <div className="m-12 items-center flex-center    ">
-                    <button> Post My Item</button>
+                <div className="m-12     ">
+                    <button className=" bg-blue-500 h-12 rounded-xl w-64   "> Post My Item</button>
                 </div>
 
             </form>
