@@ -2,7 +2,7 @@ import Post from "../app/CreatPost"
 
 export default function Home() {
   return (
-<div>
+<div className="  ">
   <Post />
 </div>
   );

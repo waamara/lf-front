@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* =========================
+   ROOT VARIABLES
+========================= */
 :root {
     /* Primary */
     --color-primary: #3713ec;
@@ -21,4 +24,35 @@
 
     /* Shadow */
     --shadow-soft: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* =========================
+   TAILWIND THEME (V4 WAY)
+========================= */
+@theme {
+    --color-primary: var(--color-primary);
+    --color-primary-hover: var(--color-primary-hover);
+    --color-on-primary: var(--color-on-primary);
+
+    --color-app-bg: var(--color-app-bg);
+    --color-card-bg: var(--color-card-bg);
+    --color-input-bg: var(--color-input-bg);
+    --color-muted-bg: var(--color-muted-bg);
+
+    --color-heading: var(--color-heading);
+    --color-body: var(--color-body);
+    --color-placeholder: var(--color-placeholder);
+    --color-border: var(--color-border);
+    --color-muted: var(--color-muted-text);
+
+    --shadow-soft: var(--shadow-soft);
+}
+
+/* =========================
+   BASE STYLES
+========================= */
+body {
+    background-color: var(--color-app-bg);
+    color: var(--color-body);
+    font-family: system-ui, sans-serif;
 }

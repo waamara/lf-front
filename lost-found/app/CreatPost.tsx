@@ -1,10 +1,10 @@
 
 const CreatPost = () => {
     return (
-        <div className=" bg-blue-300 p-8 rounded-xl h-screen   m-4">
-            <p className=" text-2xl font-bold m " > What's the  situation ? </p>
-            <div className="flex-row p-4 mt-2 flex gap-2          ">
-                <button className=" bg-white p-3 rounded-xl   " >
+        <div className=" bg-card-bg  p-8 rounded-xl h-screen   m-4">
+            <p className=" text-2xl font-bold " > What's the  situation ? </p>
+            <div className="flex-row  bg-purple-100 hover rounded-xl p-4 mt-2 flex gap-2          ">
+                <button className="  hover:text-white  p-3 rounded-xl   " >
                     <p>I lost Something</p>
                 </button>
                 <button  className="bg-white p-3 rounded-xl ">
@@ -14,22 +14,22 @@ const CreatPost = () => {
             <form action="" className="">
                 <div className=" flex-col  items-center pt-2 ">
                     <label htmlFor="" className="text-gray-600   ">Item Title</label>
-                    <input type="text" className=" h-10 w-full mt-2  bg-amber-100 placeholder:text-gray-500   border-gray-500 border-0.5 rounded-md " />
+                    <input type="text" className=" h-10 w-full mt-2  bg-input-bg  placeholder:text-gray-500   border-border border-[0.5px]  rounded-md " />
                 </div>
                 <div className=" flex-col  items-center pt-2 ">
                     <label htmlFor="" className="text-gray-600   "> Description</label>
-                    <input type="text"  className=" h-10 w-full mt-2 bg-amber-100 placeholder:text-gray-500   border-gray-500 border-0.5 rounded-md " />
+                    <input type="text"  className=" h-10 w-full mt-2 bg-input-bg placeholder:text-gray-500   border-border border-[0.5px] rounded-md " />
                 </div>
                 <div className=" flex-col  items-center pt-2 ">
                     <label htmlFor="" className="text-gray-600   ">Last seen Location</label>
-                    <input type="text" className=" h-10 w-full mt-2 bg-amber-100 placeholder:text-gray-500   border-gray-500 border-0.5 rounded-md " />
+                    <input type="text" className=" h-10 w-full mt-2 bg-input-bg  placeholder:text-gray-500 border-   border-border border-[0.5px] rounded-md " />
                 </div>
                 <div className=" flex-col  items-center pt-2 ">
                     <label htmlFor="" className="text-gray-600   ">Photos </label>
-                    <input type="image" className=" h-10 w-full mt-2  bg-amber-100 placeholder:text-gray-500   border-gray-500 border-0.5 rounded-md " />
+                    <input type="image" className=" h-10 w-full mt-2  bg-input-bg placeholder:text-gray-500   border-border border-[0.5px] rounded-md " />
                 </div>
-                <div className="m-12     ">
-                    <button className=" bg-blue-500 h-12 rounded-xl w-64   "> Post My Item</button>
+                <div className="m-12 bg-primary      ">
+                    <button className="   h-12 rounded-xl w-64 text-white text-xl font-semibold   "> Post My Item</button>
                 </div>
 
             </form>
