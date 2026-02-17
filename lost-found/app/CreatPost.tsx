@@ -17,16 +17,16 @@ const CreatPost = () => {
                     <input type="text" className=" h-10 w-full mt-2  bg-amber-100 placeholder:text-gray-500   border-gray-500 border-0.5 rounded-md " />
                 </div>
                 <div className=" flex-col  items-center pt-2 ">
-                    <label htmlFor="" className="text-gray-600   ">Item Description</label>
+                    <label htmlFor="" className="text-gray-600   "> Description</label>
+                    <input type="text"  className=" h-10 w-full mt-2 bg-amber-100 placeholder:text-gray-500   border-gray-500 border-0.5 rounded-md " />
+                </div>
+                <div className=" flex-col  items-center pt-2 ">
+                    <label htmlFor="" className="text-gray-600   ">Last seen Location</label>
                     <input type="text" className=" h-10 w-full mt-2 bg-amber-100 placeholder:text-gray-500   border-gray-500 border-0.5 rounded-md " />
                 </div>
                 <div className=" flex-col  items-center pt-2 ">
-                    <label htmlFor="" className="text-gray-600   ">Item Title</label>
-                    <input type="text" className=" h-10 w-full mt-2 bg-amber-100 placeholder:text-gray-500   border-gray-500 border-0.5 rounded-md " />
-                </div>
-                <div className=" flex-col  items-center pt-2 ">
-                    <label htmlFor="" className="text-gray-600   ">Item Location</label>
-                    <input type="text" className=" h-10 w-full mt-2  bg-amber-100 placeholder:text-gray-500   border-gray-500 border-0.5 rounded-md " />
+                    <label htmlFor="" className="text-gray-600   ">Photos </label>
+                    <input type="image" className=" h-10 w-full mt-2  bg-amber-100 placeholder:text-gray-500   border-gray-500 border-0.5 rounded-md " />
                 </div>
                 <div className="m-12     ">
                     <button className=" bg-blue-500 h-12 rounded-xl w-64   "> Post My Item</button>
