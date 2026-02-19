@@ -2,9 +2,9 @@
 const CreatPost = () => {
     return (
         <div className=" bg-card-bg  p-8 rounded-xl h-screen   m-4">
-            <p className=" text-2xl font-bold " > What's the  situation ? </p>
+            <p className=" text-2xl font-bold mb-6 "  > What's the  situation ? </p>
             <div className="flex-row  bg-purple-100 hover rounded-xl p-4 mt-2 flex gap-2          ">
-                <button className="  hover:text-white  p-3 rounded-xl   " >
+                <button className="    p-3 rounded-xl   " >
                     <p>I lost Something</p>
                 </button>
                 <button  className="bg-white p-3 rounded-xl ">
@@ -24,18 +24,18 @@ const CreatPost = () => {
 
                 <div className=" flex-col  items-center pt-2 ">
                     <label htmlFor="" className="text-gray-600   ">Last seen Location</label>
-                    <input type="text" placeholder="Searche address or area " className=" h-10 w-full mt-2 bg-input-bg  placeholder:text-gray-500 border-   border-border border-[0.5px] rounded-md " />
+                    <input type="text" placeholder="Searche address or area " className=" p-4 h-10 w-full mt-2 bg-input-bg  placeholder:text-gray-500 border-   border-border border-[0.5px] rounded-md " />
                 </div>
                 <div className=" flex-col  items-center pt-2 ">
                     <label htmlFor="" className="text-gray-600   ">Photos </label>
-                    <input type="image" placeholder="Uploa item photos Drag an drop or click to browse " className=" h-10 w-full mt-2  bg-input-bg placeholder:text-gray-500   border-border border-[0.5px] rounded-md " />
+                    <input type="image" placeholder="Uploa item photos Drag an drop or click to browse " className=" h-50 w-full mt-2  bg-input-bg placeholder:text-gray-500    border-border border-[1px] rounded-md  border-dotted " />
                 </div>
                 <div className="m-12 bg-primary rounded-xl     ">
-                    <button className="   h-12 rounded-xl w-64 text-white text-xl font-semibold   "> Post My Item</button>
+                    <button className=" flex items-center justify-center pr-6  h-12 rounded-xl w-64 text-white text-xl font-semibold   "> Post My Item</button>
                 </div>
 
             </form>
-            <p className="text-gray-500 text-center">By posting , you agree to our community <br /> guidelines .  Please do not include sensitive <br /> personal informaion .</p>
+            <p className="text-gray-500 text-center text-sm">By posting , you agree to our community <br /> guidelines .  Please do not include sensitive <br /> personal informaion .</p>
         </div>
     )
 }
