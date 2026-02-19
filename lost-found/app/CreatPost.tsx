@@ -14,21 +14,23 @@ const CreatPost = () => {
             <form action="" className="">
                 <div className=" flex-col  items-center pt-2 ">
                     <label htmlFor="" className="text-gray-600   ">Item Title</label>
-                    <input type="text" className=" h-10 w-full mt-2  bg-input-bg  placeholder:text-gray-500   border-border border-[0.5px]  rounded-md " />
+                    <input type="text"  placeholder="e.g. My Lost Wallet" className=" h-10 w-full mt-2 pl-4 bg-input-bg  placeholder:text-gray-500   border-border border-[0.5px]  rounded-md " />
                 </div>
                 <div className=" flex-col  items-center pt-2 ">
                     <label htmlFor="" className="text-gray-600   "> Description</label>
-                    <input type="text"  className=" h-10 w-full mt-2 bg-input-bg placeholder:text-gray-500   border-border border-[0.5px] rounded-md " />
+                    <input type="text"  />
+                    <textarea name="" id="" placeholder="Describe the item in detail"  className=" p-4  w-full mt-2 bg-input-bg placeholder:text-gray-500   border-border border-[0.5px] rounded-md " ></textarea>
                 </div>
+
                 <div className=" flex-col  items-center pt-2 ">
                     <label htmlFor="" className="text-gray-600   ">Last seen Location</label>
-                    <input type="text" className=" h-10 w-full mt-2 bg-input-bg  placeholder:text-gray-500 border-   border-border border-[0.5px] rounded-md " />
+                    <input type="text" placeholder="Searche address or area " className=" h-10 w-full mt-2 bg-input-bg  placeholder:text-gray-500 border-   border-border border-[0.5px] rounded-md " />
                 </div>
                 <div className=" flex-col  items-center pt-2 ">
                     <label htmlFor="" className="text-gray-600   ">Photos </label>
-                    <input type="image" className=" h-10 w-full mt-2  bg-input-bg placeholder:text-gray-500   border-border border-[0.5px] rounded-md " />
+                    <input type="image" placeholder="Uploa item photos Drag an drop or click to browse " className=" h-10 w-full mt-2  bg-input-bg placeholder:text-gray-500   border-border border-[0.5px] rounded-md " />
                 </div>
-                <div className="m-12 bg-primary      ">
+                <div className="m-12 bg-primary rounded-xl     ">
                     <button className="   h-12 rounded-xl w-64 text-white text-xl font-semibold   "> Post My Item</button>
                 </div>
 
