@@ -17,16 +17,23 @@ const Postdetails = () => {
                 <div className="text-tag-text  flex flex-row gap-1 ">
                     <p>Oct 24, 2023</p>
                     <div></div>
-                    <p>2 hours ago</p>                
+                    <p>2 hours ago</p>
                 </div>
             </div>
             <div>
                 <h1 className="text-4xl font-bold mt-3 " >Silver iPhone 13 pro</h1>
-            </div> 
-            <div className="flx flex-row gap-4 "> 
-                <div className="p-4 bg-">
+            </div>
+            <div className="flex mt-4 flex-row font-medium gap-4 ">
+                <div className="p-2 bg-tag-bg text-tag-text rounded-xl">
                     <p>Electronic</p>
                 </div>
+                <div className="p-2 bg-tag-bg text-tag-text rounded-xl">
+                    <p>High Value</p>
+                </div>
+            </div> 
+
+            <div>
+                
             </div>
         </div>
     );
