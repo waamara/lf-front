@@ -4,46 +4,72 @@
    ROOT VARIABLES
 ========================= */
 :root {
-    /* Primary */
+    /* Brand */
     --color-primary: #3713ec;
     --color-primary-hover: #2d0fc4;
     --color-on-primary: #ffffff;
 
+    /* Semantic */
+    --color-lost-text: #dc2626;
+    --color-lost-bg: #fee2e2;
+
+    --color-found-text: #16a34a;
+    --color-found-bg: #dcfce7;
+
+    --color-danger-text: #b91c1c;
+    --color-danger-bg: #fef2f2;
+
+    --color-tag-text: #4338ca;
+    --color-tag-bg: #e0e7ff;
+
     /* Backgrounds */
     --color-app-bg: #f8f9fa;
     --color-card-bg: #ffffff;
-    --color-input-bg: #ffffff;
     --color-muted-bg: #f3f0ff;
 
-    /* Text */
+    /* Typography */
     --color-heading: #111827;
     --color-body: #374151;
-    --color-placeholder: #9ca3af;
-    --color-border: #e5e7eb;
     --color-muted-text: #6b7280;
+    --color-placeholder: #9ca3af;
 
-    /* Shadow */
+    /* Borders */
+    --color-border: #e5e7eb;
+
+    /* Effects */
     --shadow-soft: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 /* =========================
-   TAILWIND THEME (V4 WAY)
+   TAILWIND V4 THEME
 ========================= */
 @theme {
     --color-primary: var(--color-primary);
     --color-primary-hover: var(--color-primary-hover);
     --color-on-primary: var(--color-on-primary);
 
+    --color-lost-text: var(--color-lost-text);
+    --color-lost-bg: var(--color-lost-bg);
+
+    --color-found-text: var(--color-found-text);
+    --color-found-bg: var(--color-found-bg);
+
+    --color-danger-text: var(--color-danger-text);
+    --color-danger-bg: var(--color-danger-bg);
+
+    --color-tag-text: var(--color-tag-text);
+    --color-tag-bg: var(--color-tag-bg);
+
     --color-app-bg: var(--color-app-bg);
     --color-card-bg: var(--color-card-bg);
-    --color-input-bg: var(--color-input-bg);
     --color-muted-bg: var(--color-muted-bg);
 
     --color-heading: var(--color-heading);
     --color-body: var(--color-body);
-    --color-placeholder: var(--color-placeholder);
-    --color-border: var(--color-border);
     --color-muted: var(--color-muted-text);
+    --color-placeholder: var(--color-placeholder);
+
+    --color-border: var(--color-border);
 
     --shadow-soft: var(--shadow-soft);
 }
