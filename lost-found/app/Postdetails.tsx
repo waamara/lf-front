@@ -49,11 +49,11 @@ const Postdetails = () => {
                 <p className="text-xl font-semibold text-green-900">Reward Offred </p>
                 <p> A cash reward will be given upon return.</p>
             </div>
-            <div className="">
+            <div className=" mt-10 text-2xl font-semibold bg-primary text-white rounded-2xl p-6  flex  items-center  justify-center">
                 <button>Contact Owner</button>
             </div>
-            <div>
-                <div>Report Post</div>
+            <div className="flex flex-row justify-evenly gap-6 mt-8 text-xl  font-medium">
+                <div className="">Report Post</div>
                 <div> Delete Post</div>
             </div>
         </div>
