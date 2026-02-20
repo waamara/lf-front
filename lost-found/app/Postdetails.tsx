@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Postdetails = () => {
     return (
-        <div className="m-4 ">
+        <div className="m-4 bg-card-bg ">
             <Image
                 src="/images/images1.jpg"
                 alt="Image of the lost or found object"
@@ -23,17 +23,27 @@ const Postdetails = () => {
             <div>
                 <h1 className="text-4xl font-bold mt-3 " >Silver iPhone 13 pro</h1>
             </div>
-            <div className="flex mt-4 flex-row font-medium gap-4 ">
+            <div className="flex mt-4  flex-row font-medium gap-4 ">
                 <div className="p-2 bg-tag-bg text-tag-text rounded-xl">
                     <p>Electronic</p>
                 </div>
                 <div className="p-2 bg-tag-bg text-tag-text rounded-xl">
                     <p>High Value</p>
                 </div>
-            </div> 
+            </div>
 
-            <div>
-                
+            <div className="rounded-2xl flex  flex-col  bg-card-bg">
+                <div className="flex flex-col ml-16 p-3">
+                    <p className="text-xl font-semibold">Last seen at</p>
+                    <p className="text-tag-text">Central Park, Norh Entrance</p>
+                </div>
+                <div>
+                    <h1 className="text-2xl font-bold mt-4">Description</h1>
+                    <p className="mt-3 text-body text-lg ">
+                        I lost my silver iPhone 13 Pro near the north entrance of Central Park this afternoon around 2 PM. It has a clear silicone case with a small scratch on the bottom left corner.
+                        The phone is locked and the "Find My" feature has been activated. If found, please contact me immediately. There is a reward for its safe return.
+                    </p>
+                </div>
             </div>
         </div>
     );
