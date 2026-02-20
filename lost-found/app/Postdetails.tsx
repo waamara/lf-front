@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Postdetails = () => {
     return (
-        <div className="m-4 bg-card-bg ">
+        <div className="m-4  ">
             <Image
                 src="/images/images1.jpg"
                 alt="Image of the lost or found object"
@@ -32,18 +32,29 @@ const Postdetails = () => {
                 </div>
             </div>
 
-            <div className="rounded-2xl flex  flex-col  bg-card-bg">
-                <div className="flex flex-col ml-16 p-3">
+            <div className="rounded-2xl flex  flex-col  ">
+                <div className="flex flex-col ml-16 p-3 bg-card-bg" >
                     <p className="text-xl font-semibold">Last seen at</p>
                     <p className="text-tag-text">Central Park, Norh Entrance</p>
                 </div>
-                <div>
+                <div className="text-lg  ">
                     <h1 className="text-2xl font-bold mt-4">Description</h1>
-                    <p className="mt-3 text-body text-lg ">
+                    <p className="mt-3 text-body  ">
                         I lost my silver iPhone 13 Pro near the north entrance of Central Park this afternoon around 2 PM. It has a clear silicone case with a small scratch on the bottom left corner.
                         The phone is locked and the "Find My" feature has been activated. If found, please contact me immediately. There is a reward for its safe return.
                     </p>
                 </div>
+            </div> 
+            <div className="mt-10 p-3 rounded-xl bg-found-bg text-found-text border-[0.1px] border-found-text ">
+                <p className="text-xl font-semibold text-green-900">Reward Offred </p>
+                <p> A cash reward will be given upon return.</p>
+            </div>
+            <div className="">
+                <button>Contact Owner</button>
+            </div>
+            <div>
+                <div>Report Post</div>
+                <div> Delete Post</div>
             </div>
         </div>
     );
