@@ -53,8 +53,8 @@ const Postdetails = () => {
                 <button>Contact Owner</button>
             </div>
             <div className="flex flex-row justify-evenly gap-6 mt-8 text-xl  font-medium">
-                <div className="">Report Post</div>
-                <div> Delete Post</div>
+                <div className="bg-danger-bg text-danger-text rounded-xl pl-6 pr-6 pt-3 pb-3 border-[0.1x] border-b-danger-bg  ">Report Post</div>
+                <div className="bg-danger-bg text-danger-text rounded-xl pl-6 pr-6 pt-3 pb-3 border-[0.1x] border-b-danger-bg "> Delete Post</div>
             </div>
         </div>
     );
